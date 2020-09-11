@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width,initial-scale=1,minimal-ui"
+      name="viewport"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/vue-material@beta/dist/vue-material.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/vue-material@beta/dist/theme/default.css"
+    />
+    <title>Gram Free Follow Me Link</title>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/vue-material@beta"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+      <div id="demo">
+   
+    <md-card md-with-hover>
+      <md-ripple>
+        <md-card-header>
+          <div class="md-title">My Gram Free</div>
+          <div class="md-subhead">Family</div>
+        </md-card-header>
+
+        <md-card-content>
+          L.I. referal link
+          <a href="https://GramFree.world/?r=6591474" title="Go to My Gram Free Ref" target="_blank">Gram Free Link</a>
+          <br> 
+          I.P. referal link
+          <a href="https://GramFree.world/?r=9411126" title="Go to My Gram Free Ref" target="_blank">Gram Free Link</a>
+           
+
+        </md-card-content>
+
+        <md-card-actions>
+         
+        </md-card-actions>
+      </md-ripple>
+    </md-card>
+  </div>
+  </body>
+    <!-- demo root element -->
+   
+
+    <script>
+      Vue.use(VueMaterial.default);
+
+
+      new Vue({
+        el: "#demo",
+        data: {},
+
+        methods: {},
+
+        created() {},
+
+        computed: {},
+      });
+    </script>
+
+    <style>
+      [v-cloak] {
+        display: none;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .md-app {
+        max-height: 800px;
+        border: 1px solid rgba(#000, 0.12);
+      }
+
+      div.md-card.md-theme-default.md-with-hover.active {
+        background-color: #8ec16d;
+      }
+    </style>
+  </body>
+</html>
